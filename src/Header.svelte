@@ -1,6 +1,6 @@
 
 <header>
-    <a href="/">Svelte Weather</a>
+    <a href="/">Svelte Weather App</a>
 </header>
 
 <style type="text/scss">

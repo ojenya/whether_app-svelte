@@ -11,7 +11,7 @@
     async function addWeatherInfo() {
         const res = await fetch(getFetchUrl(cityName));
         if (res.status === 404) {
-            alert('Invalid City Name.');
+            alert('Неверно указан город');
         } else {
             weatherList.add(await res.json());
         }
@@ -21,12 +21,12 @@
 
 <div class="search-form">
     <input type="text"
-           placeholder="Enter City Name."
+           placeholder="Введите город"
            bind:value={cityName}
     />
     <button type="button"
             on:click={addWeatherInfo}
-    >ADD</button>
+    >Добавить</button>
 </div>
 
 <style type="text/scss">
