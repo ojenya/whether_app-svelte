@@ -1,6 +1,6 @@
 
 <header>
-    <a href="/">Svelte Weather App</a>
+    <a href="/">Svelte Weather App</a> <a href="https://openweathermap.org/api" target="_blank">with OpenWeather API</a>
 </header>
 
 <style type="text/scss">
