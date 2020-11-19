@@ -11,7 +11,7 @@
     async function addWeatherInfo() {
         const res = await fetch(getFetchUrl(cityName));
         if (res.status === 404) {
-            alert('Неверно указан город');
+            alert('Неверно указан город. Напишите нормально!');
         } else {
             weatherList.add(await res.json());
         }
