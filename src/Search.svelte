@@ -11,6 +11,8 @@
     function getPic() {
        
     }
+    function getPredict(){
+    }
     async function addWeatherInfo() {
         const res = await fetch(getFetchUrl(cityName));
         if (res.status === 404) {
