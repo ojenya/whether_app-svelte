@@ -8,7 +8,11 @@
         return 'http://api.openweathermap.org/data/2.5/weather?units=metric&appid=' + key + '&q=' + cityName;
     }
 
-
+    function getPic() {
+       
+    }
+    function getPredict(){
+    }
     async function addWeatherInfo() {
         const res = await fetch(getFetchUrl(cityName));
         if (res.status === 404) {
