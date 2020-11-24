@@ -9,6 +9,7 @@
     }
 
     function getPic() {
+    console.log('love');
        
     }
     function getPredict(){
